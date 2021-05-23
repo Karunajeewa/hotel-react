@@ -12,6 +12,7 @@ import {
     Route,
 
 } from "react-router-dom";
+import SignIn from "./view/SignIn";
 
 function App() {
     return (
@@ -22,7 +23,9 @@ function App() {
                     <Route path="/Gallery">
                         <Gallery/>
                     </Route>
-
+                    <Route path="/SignIn">
+                        <SignIn/>
+                    </Route>
                     <Route path="/">
                         <Home/>
                     </Route>
