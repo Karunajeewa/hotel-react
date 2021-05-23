@@ -1,11 +1,11 @@
 import React from "react";
-import {Button, Card, Col, Row} from "react-bootstrap";
+import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import cover from '../assets/images/cover.jpg';
 import {Image} from "react-bootstrap";
 
 const Gallery: React.FC = () => {
     return (
-        <div className='gallery'>
+        <Container className='gallery'>
             <Row>
                 <Col>
                     <Card className='card' style={{width: '18rem'}}>
@@ -125,7 +125,7 @@ const Gallery: React.FC = () => {
                     </Card>
                 </Col>
             </Row>
-        </div>
+        </Container>
 
     )
 }
