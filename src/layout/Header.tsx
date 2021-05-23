@@ -8,8 +8,8 @@ const Header: React.FC = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#gallery">Gallery</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/Gallery">Gallery</Nav.Link>
 
                 </Nav>
                 <Nav>
