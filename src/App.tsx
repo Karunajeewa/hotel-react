@@ -6,7 +6,6 @@ import './assets/style_sheets/main.scss';
 import Home from "./view/Home";
 import Footer from "./layout/Footer";
 import Gallery from "./view/Gallery";
-// comitted for merge conflit.
 import {
     BrowserRouter as Router,
     Switch,
