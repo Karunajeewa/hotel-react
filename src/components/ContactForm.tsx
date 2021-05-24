@@ -1,9 +1,9 @@
 import React from "react";
-import {Button, Container, Form} from "react-bootstrap";
-import Swal from 'sweetalert2'
+import {Button, Form} from "react-bootstrap";
+import swal from 'sweetalert2'
 
 const ContactForm: React.FC = () => {
-    const handleOnClick=Swal.fire({
+    const handleOnClick=swal.fire({
         position: 'center',
         icon: 'success',
         title: 'Your work has been saved',
@@ -31,7 +31,7 @@ const ContactForm: React.FC = () => {
                 <Form.Label className='form-label'>Password</Form.Label>
                 <Form.Control  className="form-text-box" type="password" placeholder="Password" />
             </Form.Group>
-            <Button  className="button" variant="primary" type="submit"> Submit </Button>
+            <Button  className="button" variant="primary" type="submit" > Submit </Button>
         </Form>
     )
 };
