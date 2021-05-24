@@ -8,8 +8,8 @@ const Home: React.FC = () => {
         <div className="page-holder bg-cover">
             <Image src={cover} fluid/>
             <div className="centered">
-                <h1>Hotel Name</h1>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda consequuntur delectus dolorem et eum explicabo facilis illum ipsum, magni maiores maxime officiis porro quae quis, quos ratione soluta voluptate!</h5>
+                <h1>Taj Samudra</h1>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda consequuntur delectus dolorem et eum explicabo facilis illum ipsum, voluptate!</h6>
 
             </div>
 
