@@ -1,5 +1,7 @@
 import React from "react";
 // import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+// Don't use Matirial buttons for this task;
+// Try to solve push errors;
 
 const Footer: React.FC =() => {
     return (
