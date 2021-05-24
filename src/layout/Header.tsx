@@ -10,7 +10,7 @@ const Header: React.FC = () => {
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/Gallery">Gallery</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="/ContactUs">Contact Us</Nav.Link>
                 </Nav>
                 <Nav>
                     <Nav.Link href="/SignIn">Sign In</Nav.Link>
