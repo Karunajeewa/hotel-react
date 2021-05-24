@@ -12,6 +12,7 @@ const ContactUs: React.FC = () =>{
             </Row>
             <Row>
                 <Col className="form" sm={6}>
+                    <h2>Padme merge conflit.</h2>
                     <ContactForm/>
                 </Col>
                 <Col>
