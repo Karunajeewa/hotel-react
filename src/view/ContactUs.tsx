@@ -2,6 +2,7 @@ import React from "react";
 import contactus from '../assets/images/contactUs.png'
 import ContactForm from "../components/ContactForm";
 import {Col, Container, Image, Row} from "react-bootstrap";
+import ContactText from "../components/ContactText";
 
 
 const ContactUs: React.FC = () =>{
@@ -11,12 +12,11 @@ const ContactUs: React.FC = () =>{
                 <Image src={contactus} className='contactus-img'/>
             </Row>
             <Row>
-                <Col className="form" sm={6}>
-                    <h2>Padme merge conflit.</h2>
+                <Col className="form" sm={12} md={6}>
                     <ContactForm/>
                 </Col>
-                <Col>
-
+                <Col className="form" sm={12} md={6}>
+                    <ContactText/>
                 </Col>
             </Row>
         </Container>
