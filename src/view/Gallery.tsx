@@ -2,10 +2,12 @@ import React from "react";
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import cover from '../assets/images/cover.jpg';
 import {Image} from "react-bootstrap";
+import MetaDecorator from "../components/MetaDecorator";
 
 const Gallery: React.FC = () => {
     return (
         <Container className='gallery'>
+            <MetaDecorator title={"GALLERY | Hotel-React"} description={"gallery page"}/>
             <Row>
                 <Col>
                     <Card className='card' style={{width: '18rem'}}>

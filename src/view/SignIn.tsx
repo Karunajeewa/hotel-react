@@ -1,9 +1,11 @@
 import React from "react";
 import {Container} from "react-bootstrap";
+import MetaDecorator from "../components/MetaDecorator";
 
 const SignIn: React.FC = () => {
     return (
         <Container className="container-fluid bg-light" fluid={true}>
+            <MetaDecorator title={"SIGN IN| Hotel-React"} description={"sign in page"}/>
             <form className='form'>
                 <h3>Sign In</h3>
 
