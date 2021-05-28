@@ -7,13 +7,15 @@ import Home from "./view/Home";
 import ContactUs from "./view/ContactUs";
 import Footer from "./layout/Footer";
 import Gallery from "./view/Gallery";
+import SignIn from "./view/SignIn";
+import About from "./view/About";
 import {
     BrowserRouter as Router,
     Switch,
     Route,
 
 } from "react-router-dom";
-import SignIn from "./view/SignIn";
+
 
 
 function App() {
@@ -36,6 +38,9 @@ function App() {
                     </Route>
                     <Route path="/ContactUs">
                         <ContactUs/>
+                    </Route>
+                    <Route path="/About">
+                        <About/>
                     </Route>
                     <Route path="/">
                         <Home/>
