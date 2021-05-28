@@ -14,9 +14,7 @@ const Header: React.FC = () => {
                 </Nav>
                 <Nav>
                     <Nav.Link href="/SignIn">Sign In</Nav.Link>
-                    <Nav.Link eventKey={2} href="#about">
-                        About
-                    </Nav.Link>
+                    <Nav.Link href="/About">About Us</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

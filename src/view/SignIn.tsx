@@ -30,7 +30,6 @@ const SignIn: React.FC = () => {
                 </p>
             </form>
         </Container>
-
     )
 }
 export default SignIn;
