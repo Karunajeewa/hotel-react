@@ -1,22 +1,40 @@
 import React from "react";
-// import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import Container from 'react-bootstrap/Container'
+import {Col, Row} from "react-bootstrap";
 
 const Footer: React.FC =() => {
     return (
         <div className="footer-body">
-            <footer className="social-media">
-                <div>
-                    <span>Follow Us on</span><br/>
-                    {/*<MDBBtn floating social="tw" size="sm">*/}
-                    {/*    <MDBIcon fab icon="twitter" className="pr-1" />*/}
-                    {/*</MDBBtn>*/}
+            <footer>
+                <Container>
+                    <Row>
 
-                    <a href="https://www.facebook.com/TajSamudraColombo/"><i className="feather-facebook"/></a><br/>
+                        <Col>
+                            <span style={{fontWeight:"bold"}}>Hotel Taj Samudra</span><br/>
+                            No 25, Galle Face Center Rd, Colombo 80000
+                        </Col>
+                        <Col>
+                    <span style={{fontWeight:"bold"}}>Follow Us On</span><br/>
+                            <a className="social-media" href="https://www.facebook.com/TajSamudraColombo/"><i className="feather-facebook"/></a>
+                            <a className="social-media" href="https://www.instagram.com/tajsamudracolombo/"><i className="feather-instagram"/></a>
+                            <a className="social-media" href="https://www.twitter.com/tajsamudracolombo/"><i className="feather-twitter"/></a>
+                            <a className="social-media" href="https://www.youtube.com/tajsamudracolombo/"><i className="feather-youtube"/></a>
+                            <br/>
+
                     <span>&copy; Taj Samudra.</span>
-                </div>
-                <div className="contact">
-                    <span>Guest ReservationsTM is an independent travel network offering over 100,000 hotels worldwide.</span>
-                </div>
+                        </Col>
+
+                    <Col>
+                    <span style={{fontWeight:"bold"}}>Contact Us</span> <br/>
+                        TELEPHONE : +94113478291<br/>
+                        WHATSAPP  : +94781234567<br/>
+                        FAX       : +94113478291<br/>
+                        EMAIL     : resevations@taj.com
+
+
+                    </Col>
+                    </Row>
+                </Container>
             </footer>
         </div>
 
