@@ -1,34 +1,32 @@
 import React from "react";
 import TextTransition, { presets } from "react-text-transition";
+import {Col, Row} from "react-bootstrap";
 
-const TEXTS = [
-    "You’ve got questions, we’ve got answers on anything...",
-    "Please contact us...",
-    "Taj Samudra ,No 25, Galle Face Center Road , Colombo , SRI LANKA",
-    "We are ready to welcome you back with enlivened hospitality, greater care and assured safety!"
-];
+
 const ContactText: React.FC = () =>{
-    const [index, setIndex] = React.useState(0);
-
-    React.useEffect(() => {
-        const intervalId = setInterval(() =>
-                setIndex(index => index + 1),
-            2500 // every 3 seconds
-        );
-        return () => clearTimeout(intervalId);
-    }, []);
-    return(
-        <React.Fragment>
-        <h1 className="help-title">How Can We Help?</h1>
-            <br/>
-        <h3 className="help-description">
-            <TextTransition
-                text={ TEXTS[index % TEXTS.length] }
-                springConfig={ presets.wobbly }
-            />
-        </h3>
-        </React.Fragment>
-    )
+   return(
+       <Col className="contact-us">
+           <Row>
+               <h1>Contact Us...</h1>
+           </Row>
+           <Row className="details">
+               <h1>Taj Samudra, Colombo</h1>
+               <p>No. 25 Galle Face Center Rd<br/>Colombo
+               <br/>Tel: 0112 446 622
+               <br/>Fax : 0112 556 622</p>
+           </Row>
+           <Row className="icon">
+               <p>Following Us :</p>
+               <h3>
+               <i className="feather-facebook"/>
+               <i className="feather-instagram"/>
+               <i className="feather-twitter"/>
+               <i className="feather-mail"/>
+               <i className="feather-map-pin"/>
+               </h3>
+           </Row>
+       </Col>
+   )
 };
 
 export default ContactText;

@@ -8,7 +8,7 @@ const ContactForm: React.FC = () => {
         icon: 'success',
         title: 'Your work has been saved',
         showConfirmButton: false,
-        timer: 1500
+        timer:3500
     });
 
     return (
@@ -33,10 +33,5 @@ const ContactForm: React.FC = () => {
         </Form>
     )
 };
-/*
-<Form.Text className="text-muted">
-    We'll never share your email with anyone else.
-</Form.Text>
-*/
 
 export default ContactForm;
