@@ -11,12 +11,11 @@ const Footer: React.FC =() => {
                     {/*    <MDBIcon fab icon="twitter" className="pr-1" />*/}
                     {/*</MDBBtn>*/}
 
-                    <a href="https://www.facebook.com/TajSamudraColombo/"> facebook</a><br/>
+                    <a href="https://www.facebook.com/TajSamudraColombo/"><i className="feather-facebook"/></a><br/>
                     <span>&copy; Taj Samudra.</span>
                 </div>
                 <div className="contact">
                     <span>Guest ReservationsTM is an independent travel network offering over 100,000 hotels worldwide.</span>
-
                 </div>
             </footer>
         </div>

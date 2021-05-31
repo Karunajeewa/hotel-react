@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+.submit-form{
+  flex-wrap: wrap;
+  padding: 0;
+}
+.images-wrap{
+  .contactus-img {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+  }
+  .divStyle{
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 30%;
+    text-align: center;
+    color: #dbedff;
+  }
+  .help-title{
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+  }
+  .divStyle p{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.contact-form{
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  .input-form {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: #e4f0f1;
+    .form-label {
+      float: left;
+      width: 25%;
+      text-align: center;
+      padding-right: 10%;
+    }
+    .form-text-box {
+      float: right;
+      width: 70%;
+      border-radius: 5px;
+    }
+    .input-group {
+      padding-top: 1.5em;
+      padding-right: 1.5em;
+    }
+    .button {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+}
+.contact-form h1{
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+.contact-us{
+  text-align: center;
+  padding-top: 4%;
+  padding-left: 20%;
+  .details{
+    padding-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    h1{
+      font-size: 2em;
+      font-weight: bold;
+      padding-bottom: 0;
+    }
+    p{
+      font-size: 1.5em;
+      width: 100%;
+    }
+  }
+
+}
+.icon{
+  p{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+  }
+  i{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .images-wrap{
+    .contactus-img {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+    .divStyle{
+      position: absolute;
+      margin-left: 5%;
+      margin-right: 5%;
+      top: 20%;
+    }
+    .help-title{
+      font-size: 1.2em;
+
+    }
+    .divStyle p{
+      font-size: 1em;
+      width: 100%;
+      text-align: center;
+
+    }
+  }
+  .contact-form{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .contact-form h1{
+    font-size: 1.5em;
+  }
+  .contact-us{
+    .details{
+      h1{
+        font-size: 1.5em;
+      }
+      p{
+        font-size: 1em;
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+
