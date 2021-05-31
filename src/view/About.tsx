@@ -1,12 +1,14 @@
 import React from "react";
 import aboutImg from '../assets/images/aboutImg.jpg'
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
-import ContactUs from "./ContactUs";
+
+import MetaDecorator from "../components/MetaDecorator";
 
 const About: React.FC = () => {
 
     return(
         <Container fluid={true} className="flex-wrap about">
+            <MetaDecorator title={"Contact Us| Hotel-React"} description={"contacts page"}/>
             <Row>
                 <Col sm={12} md={12} lg={6}><Image src={aboutImg} className="aboutImage"/></Col>
                 <Col className="paragraph" sm={12} md={12} lg={3}>
